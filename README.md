@@ -1,21 +1,47 @@
 Flutter Project README<br><br>
 
-Project Structure<br><br>
-lib/<br>
-├── View/<br>
-│ ├── LoginUi.dart<br>
-│ ├── ProductDetailUi.dart<br>
-│ ├── ProfileUi.dart<br>
-│ ├── Fragments/<br>
-│ │ └── HomeUi.dart<br>
-│ └── Widgets/<br>
-│ └── CustomButton.dart<br>
-├── Controller/<br>
-│ ├── FetchCategoryController/<br>
-│ │ └── FetchListOfCategory.dart<br>
-│ └── FetchListOfProductController/<br>
-│ └── FetchProduct.dart<br>
-└── myUills.dart<br>
+<h3>Project Directory Structure</h3>
+
+<p>The project is organized with the following directory structure:</p>
+
+<ul>
+  <li><strong>lib/</strong>
+    <ul>
+      <li><strong>View/</strong>
+        <ul>
+          <li><strong>LoginUi.dart</strong>: Contains the UI for user login.</li>
+          <li><strong>ProductDetailUi.dart</strong>: Displays detailed information about a product.</li>
+          <li><strong>ProfileUi.dart</strong>: Manages user profile information.</li>
+          <li><strong>Fragments/</strong>
+            <ul>
+              <li><strong>HomeUi.dart</strong>: Home screen UI components.</li>
+            </ul>
+          </li>
+          <li><strong>Widgets/</strong>
+            <ul>
+              <li><strong>CustomButton.dart</strong>: Custom UI button components.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Controller/</strong>
+        <ul>
+          <li><strong>FetchCategoryController/</strong>
+            <ul>
+              <li><strong>FetchListOfCategory.dart</strong>: Controller for fetching categories.</li>
+            </ul>
+          </li>
+          <li><strong>FetchListOfProductController/</strong>
+            <ul>
+              <li><strong>FetchProduct.dart</strong>: Controller for fetching products.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>myUills.dart</strong>: Utility functions and constants used throughout the application.</li>
+    </ul>
+  </li>
+</ul>
 
 Project Overview<br><br>
 This Flutter project is a mobile application designed to showcase various features including authentication with Firebase, dynamic data fetching using APIs, and navigation between different screens. It is structured to provide a seamless user experience with a clean and intuitive interface.<br><br>
