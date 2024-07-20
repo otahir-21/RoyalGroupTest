@@ -1,53 +1,58 @@
-Flutter Project README
-Project Overview
-This Flutter project is a mobile application designed to showcase various features including authentication with Firebase, dynamic data fetching using APIs, and navigation between different screens. It is structured to provide a seamless user experience with a clean and intuitive interface.
+Flutter Project README<br><br>
+Project Overview<br><br>
+This Flutter project is a mobile application designed to showcase various features including authentication with Firebase, dynamic data fetching using APIs, and navigation between different screens. It is structured to provide a seamless user experience with a clean and intuitive interface.<br><br>
 
-Key Features Implemented
-Authentication with Firebase
-The project integrates Firebase Authentication to allow users to sign in using their Google accounts. Upon successful authentication, users are redirected to the home screen where they can explore different functionalities.
+Key Features Implemented<br><br>
+Authentication with Firebase<br><br>
+The project integrates Firebase Authentication to allow users to sign in using their Google accounts. Upon successful authentication, users are redirected to the home screen where they can explore different functionalities.<br><br>
 
-Dynamic Category and Product Display
-The home screen (HomeUi) fetches categories and products dynamically from APIs using FetchListOfCategory and FetchProduct controllers. Categories are displayed horizontally, while products are shown in a grid format. Tapping on a product navigates to its detailed view (ProductDetailUi).
+Dynamic Category and Product Display<br><br>
+The home screen (HomeUi) fetches categories and products dynamically from APIs using FetchListOfCategory and FetchProduct controllers. Categories are displayed horizontally, while products are shown in a grid format. Tapping on a product navigates to its detailed view (ProductDetailUi).<br><br>
 
-Profile Management
-The ProfileUi screen displays user information retrieved from Firebase Authentication, including username and email. It also includes a logout button that signs the user out and clears the stored user session.
+Profile Management<br><br>
+The ProfileUi screen displays user information retrieved from Firebase Authentication, including username and email. It also includes a logout button that signs the user out and clears the stored user session.<br><br>
 
-Navigation with GetX
-Navigation throughout the application is managed using the GetX package, providing a simple and efficient state management solution along with route management.
+Navigation with GetX<br><br>
+Navigation throughout the application is managed using the GetX package, providing a simple and efficient state management solution along with route management.<br><br>
 
-Setting Up the Project
-Follow these steps to set up and run the Flutter project on your local development environment:
+Setting Up the Project<br><br>
+Prerequisites<br><br>
+Install Flutter SDK. Flutter Installation Guide<br>
+Set up an IDE (e.g., Android Studio, Visual Studio Code) with Flutter and Dart plugins.<br><br>
+Getting Started<br><br>
+Clone the repository to your local machine:<br>
 
-Prerequisites
-Install Flutter SDK. Flutter Installation Guide
-Set up an IDE (e.g., Android Studio, Visual Studio Code) with Flutter and Dart plugins.
-Getting Started
-Clone the repository to your local machine:
-
-bash
+bash<br>
 Copy code
-git clone <repository-url>
-Navigate to the project directory:
+git clone <repository-url><br>
+```<br>
 
-bash
+Navigate to the project directory:<br>
+
+bash<br>
 Copy code
-cd <project-directory>
-Install dependencies:
+cd <project-directory><br>
+```<br>
 
-bash
+Install dependencies:<br>
+
+bash<br>
 Copy code
-flutter pub get
-Set up Firebase for Authentication:
+flutter pub get<br>
+```<br>
 
-Create a new project on Firebase Console.
-Add Android/iOS app to your Firebase project (follow Firebase documentation for detailed instructions).
-Download google-services.json (for Android) or GoogleService-Info.plist (for iOS) and place it in the appropriate directory (android/app for Android, ios/Runner for iOS).
-Run the app:
+Set up Firebase for Authentication:<br><br>
 
-bash
+Create a new project on Firebase Console.<br>
+Add Android/iOS app to your Firebase project (follow Firebase documentation for detailed instructions).<br>
+Download google-services.json (for Android) or GoogleService-Info.plist (for iOS) and place it in the appropriate directory (android/app for Android, ios/Runner for iOS).<br><br>
+Run the app:<br>
+
+bash<br>
 Copy code
-flutter run
-Additional Notes
-Customize the UI, colors, and themes in myUills.dart to match your app's branding.
-Implement error handling and data validation based on your application requirements.
-Ensure all necessary permissions and API keys (if applicable) are configured properly.
+flutter run<br>
+```<br><br>
+Additional Notes<br><br>
+Customize the UI, colors, and themes in myUills.dart to match your app's branding.<br>
+Implement error handling and data validation based on your application requirements.<br>
+Ensure all necessary permissions and API keys (if applicable) are configured properly.<br><br>
