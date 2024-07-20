@@ -1,4 +1,22 @@
 Flutter Project README<br><br>
+
+Project Structure<br><br>
+lib/<br>
+├── View/<br>
+│ ├── LoginUi.dart<br>
+│ ├── ProductDetailUi.dart<br>
+│ ├── ProfileUi.dart<br>
+│ ├── Fragments/<br>
+│ │ └── HomeUi.dart<br>
+│ └── Widgets/<br>
+│ └── CustomButton.dart<br>
+├── Controller/<br>
+│ ├── FetchCategoryController/<br>
+│ │ └── FetchListOfCategory.dart<br>
+│ └── FetchListOfProductController/<br>
+│ └── FetchProduct.dart<br>
+└── myUills.dart<br>
+
 Project Overview<br><br>
 This Flutter project is a mobile application designed to showcase various features including authentication with Firebase, dynamic data fetching using APIs, and navigation between different screens. It is structured to provide a seamless user experience with a clean and intuitive interface.<br><br>
 
