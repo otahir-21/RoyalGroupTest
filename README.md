@@ -22,24 +22,17 @@ Set up an IDE (e.g., Android Studio, Visual Studio Code) with Flutter and Dart p
 Getting Started<br><br>
 Clone the repository to your local machine:<br>
 
-bash<br>
-Copy code
 git clone <repository-url><br>
-```<br>
 
 Navigate to the project directory:<br>
 
 bash<br>
-Copy code
 cd <project-directory><br>
-```<br>
 
 Install dependencies:<br>
 
 bash<br>
-Copy code
 flutter pub get<br>
-```<br>
 
 Set up Firebase for Authentication:<br><br>
 
@@ -49,10 +42,11 @@ Download google-services.json (for Android) or GoogleService-Info.plist (for iOS
 Run the app:<br>
 
 bash<br>
-Copy code
-flutter run<br>
-```<br><br>
+
+flutter run<br><br>
+
+
 Additional Notes<br><br>
-Customize the UI, colors, and themes in myUills.dart to match your app's branding.<br>
-Implement error handling and data validation based on your application requirements.<br>
-Ensure all necessary permissions and API keys (if applicable) are configured properly.<br><br>
+
+Customize the UI, colors, and themes in myUills.dart to match app's branding.<br>
+Implementd error handling and data validation based on application requirements.<br>
