@@ -26,12 +26,8 @@ git clone <repository-url><br>
 
 Navigate to the project directory:<br>
 
-bash<br>
-cd <project-directory><br>
-
 Install dependencies:<br>
 
-bash<br>
 flutter pub get<br>
 
 Set up Firebase for Authentication:<br><br>
@@ -41,8 +37,6 @@ Add Android/iOS app to your Firebase project (follow Firebase documentation for 
 Download google-services.json (for Android) or GoogleService-Info.plist (for iOS) and place it in the appropriate directory (android/app for Android, ios/Runner for iOS).<br><br>
 Run the app:<br>
 
-bash<br>
-
 flutter run<br><br>
 
 
@@ -50,3 +44,5 @@ Additional Notes<br><br>
 
 Customize the UI, colors, and themes in myUills.dart to match app's branding.<br>
 Implementd error handling and data validation based on application requirements.<br>
+Please make sure to run this app on apple devices.<br>
+
